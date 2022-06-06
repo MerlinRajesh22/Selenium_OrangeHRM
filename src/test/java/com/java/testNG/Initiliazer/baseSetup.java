@@ -29,7 +29,7 @@ public class baseSetup {
 					"C:\\Users\\LENOVO\\EclipseWorkSpace\\TestNGPOM\\src\\test\\resources\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
-			System.out.println("Hello");
+			System.out.println("Hi");
 
 			driver.get(getPropertyData("URL"));
 			driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
